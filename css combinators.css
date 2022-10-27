@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Combinator Property</title>
+    <style>
+        /*div ~ p{
+            color: #009900;
+            font-size:32px;
+            font-weight:bold;
+            margin:0px;
+            text-align:center;
+        }
+        div {
+            text-align:center;
+        }*/
+        
+         #a {
+            width: 500px;
+            height: 500px;
+            background-color: purple;
+            margin-bottom: 20px;
+        }
+        #b {
+            width: 500px;
+            height: 200px;
+            background-color: rosybrown;
+            margin-botton: 10px;
+        }
+
+        #a:hover {
+            cursor: pointer;
+            background-color: aqua;
+        }
+        #b:hover {
+            cursor: not-allowed;
+            background-color:bisque;
+        }
+        #p {
+            width: 500px;
+            height: 50px;
+            background-color:darkseagreen;
+        }
+        #p:hover {
+            cursor: pointer;
+            background-color:olive;
+        }
+        
+        
+    </style>
+</head>
+ 
+<body>
+    <div>HEAIDNG</div>
+     <div id="a"> This is content</div>
+<div id="p">Nishant singh</div>
+ 
+    <div id="b">this is small content</div>
+    
+         
+ 
+</body>
+</html> 
