@@ -1,0 +1,20 @@
+#esccape characters
+
+print("we are \"good\" plyers of football")
+
+print("hello \n world")
+
+text = 'my name is nshant'
+print(text.capitalize())
+
+print('HELLO'.casefold())
+print('My age is 20. My lucky number is also 20'.count('20'))
+print('My age is 20. My lucky number is also 20'.endswith('.'))
+
+print('my age is 20. My lucky number is also 20'.find('age'))
+print('my age is 20. My lucky number is also 20'.index('age'))
+print('my age is 20. My lucky number is also 20'.find('z'))
+
+text='My name is NISHANT'
+print(text.swapcase())
+
